@@ -49,25 +49,18 @@ public class Entrega02 : MonoBehaviour
         // en mi caso que num1 = 10 y num2 = 3 sería true
 
         //EJERCICIO 6
-        Debug.Log("Bienvenido, " + name);
-        //Tiene que salir "Bienvenido, David
+        Debug.Log("Welcome, " + name);
+        //Tiene que salir "Welcome, David
 
         //EJERCICIO 8
         Debug.Log(ent1 + " % " + ent2 + " = " + (ent1 % ent2));
         // En este ejercicio saldría por pantalla ent1 % ent2 = ent1%ent2
         //en mi caso que ent1 = 31  y ent2 = 12 saldría "31 % 12 = 7"
 
-        /*
+        
         //EJERCICIO 9
-        if (name>"MALLORCA")
-        {
-            Debug.Log(name+" es major que Mallorca");
-        }
-        else
-        {
-            Debug.Log(name+" es menor que Mallorca");
-        }
-        Creo que el objetivo es que la expresión name>"Mallorca" de true si name tiene más letras que mallorca, pero no se pueden comparar dos strings con >
-        */
+        Debug.Log("Hello! My name is " + name);
+        //en este caso saldría por consola "Hello! My name is David"
+
     }
 }
